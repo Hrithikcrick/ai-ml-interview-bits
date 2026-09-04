@@ -12,8 +12,8 @@
 
 ### From Neural Network Fundamentals → Transformers → LLM Systems → RAG → Agents
 
-![Completed](https://img.shields.io/badge/Completed-Q1--Q37-22C55E?style=flat-square)
-![Current](https://img.shields.io/badge/Next-Self--Attention%20Q38--Q44-F59E0B?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-Q1--Q44-22C55E?style=flat-square)
+![Current](https://img.shields.io/badge/Next-Multi--Head%20Attention%20Q45--Q50-F59E0B?style=flat-square)
 
 </div>
 
@@ -80,6 +80,20 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 ---
 
+## 🟢 Self-Attention & Transformer Architecture — Q38-Q44
+
+✅ Why self-attention is needed  
+✅ Query, Key and Value  
+✅ Scaled dot-product attention  
+✅ Why divide by sqrt(d_k)  
+✅ Softmax saturation  
+✅ Separate Q/K/V projections  
+✅ O(n²) attention complexity
+
+👉 [Read Q38-Q44](questions/05-self-attention.md)
+
+---
+
 # 🗺️ Complete Interview Roadmap
 
 👉 **[Open Complete AI + ML Interview Roadmap](INTERVIEW_ROADMAP.md)**
@@ -108,18 +122,16 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 # ⏭️ Next Section
 
-## 🔍 Q38-Q44 — Self-Attention & Transformer Architecture
+## 🤖 Q45-Q50 — Multi-Head Attention, Causal Attention & KV Cache
 
 Coming next:
 
-- What problem self-attention solves
-- Query, Key and Value
-- Attention-score calculation
-- Why attention divides by sqrt(d_k)
-- Softmax saturation
-- Why Q, K and V use different projections
-- Computational complexity of self-attention
-
+- Why Transformers use Multi-Head Attention
+- Computational cost of multiple attention heads
+- Causal masking
+- Why Transformer training can process tokens in parallel
+- KV Cache
+- Training-time attention vs inference-time attention
 ---
 
 <div align="center">
@@ -129,4 +141,5 @@ Coming next:
 **Learn → Understand → Explain → Revise → Interview**
 
 </div>
+
 
