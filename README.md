@@ -12,8 +12,8 @@
 
 ### From Neural Network Fundamentals → Transformers → LLM Systems → RAG → Agents
 
-![Completed](https://img.shields.io/badge/Completed-Q1--Q44-22C55E?style=flat-square)
-![Current](https://img.shields.io/badge/Next-Multi--Head%20Attention%20Q45--Q50-F59E0B?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-Q1--Q50-22C55E?style=flat-square)
+![Current](https://img.shields.io/badge/Next-Transformer%20FFN%20Q57--Q62-F59E0B?style=flat-square)
 
 </div>
 
@@ -94,6 +94,20 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 ---
 
+## 🟦 Multi-Head Attention, Causal Attention & KV Cache — Q45-Q50
+
+✅ Multi-Head Attention  
+✅ Why multiple heads do not multiply full-dimensional attention cost  
+✅ Causal masking  
+✅ Parallel Transformer training  
+✅ Autoregressive generation  
+✅ KV Cache  
+✅ Training-time vs inference-time attention
+
+👉 [Read Q45-Q50](questions/06-multi-head-causal-kv-cache.md)
+
+---
+
 # 🗺️ Complete Interview Roadmap
 
 👉 **[Open Complete AI + ML Interview Roadmap](INTERVIEW_ROADMAP.md)**
@@ -122,16 +136,18 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 # ⏭️ Next Section
 
-## 🤖 Q45-Q50 — Multi-Head Attention, Causal Attention & KV Cache
+## 🧩 Q57-Q62 — Transformer MLP / FFN & Modern LLM Activations
 
 Coming next:
 
-- Why Transformers use Multi-Head Attention
-- Computational cost of multiple attention heads
-- Causal masking
-- Why Transformer training can process tokens in parallel
-- KV Cache
-- Training-time attention vs inference-time attention
+- Role of the Feed-Forward Network inside a Transformer
+- Why FFNs expand the hidden dimension
+- Why an activation function is required inside the FFN
+- GELU
+- SwiGLU
+- Why SwiGLU uses more parameters and how hidden dimension is adjusted
+
+> Note: the interview question numbering moves directly from Q50 to Q57.
 ---
 
 <div align="center">
@@ -141,5 +157,6 @@ Coming next:
 **Learn → Understand → Explain → Revise → Interview**
 
 </div>
+
 
 
