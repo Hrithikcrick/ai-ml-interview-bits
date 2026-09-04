@@ -12,8 +12,8 @@
 
 ### From Neural Network Fundamentals → Transformers → LLM Systems → RAG → Agents
 
-![Completed](https://img.shields.io/badge/Completed-Q1--Q23-22C55E?style=flat-square)
-![Current](https://img.shields.io/badge/Next-Normalization%20Q24--Q37-F59E0B?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-Q1--Q37-22C55E?style=flat-square)
+![Current](https://img.shields.io/badge/Next-Self--Attention%20Q38--Q44-F59E0B?style=flat-square)
 
 </div>
 
@@ -59,6 +59,27 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 ---
 
+## 🔵 Normalization — Q24-Q37
+
+✅ Why normalization is needed  
+✅ Batch Normalization  
+✅ BatchNorm training vs inference  
+✅ BatchNorm in Transformers and LLMs  
+✅ Layer Normalization  
+✅ BatchNorm vs LayerNorm  
+✅ LayerNorm in Transformers  
+✅ RMSNorm  
+✅ RMSNorm in modern LLMs  
+✅ Pre-Norm vs Post-Norm  
+✅ Pre-Norm gradient flow  
+✅ Residual connections vs normalization  
+✅ Large hidden-state magnitude  
+✅ Small hidden-state magnitude
+
+👉 [Read Q24-Q37](questions/04-normalization.md)
+
+---
+
 # 🗺️ Complete Interview Roadmap
 
 👉 **[Open Complete AI + ML Interview Roadmap](INTERVIEW_ROADMAP.md)**
@@ -87,20 +108,17 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 # ⏭️ Next Section
 
-## ⚖️ Q24-Q37 — Normalization
+## 🔍 Q38-Q44 — Self-Attention & Transformer Architecture
 
 Coming next:
 
-- Why normalization is needed
-- Batch Normalization
-- BatchNorm training vs inference
-- Why BatchNorm is less natural for Transformers
-- Layer Normalization
-- BatchNorm vs LayerNorm
-- RMSNorm
-- Pre-Norm vs Post-Norm
-- Residual connections vs normalization
-- Hidden-state magnitude
+- What problem self-attention solves
+- Query, Key and Value
+- Attention-score calculation
+- Why attention divides by sqrt(d_k)
+- Softmax saturation
+- Why Q, K and V use different projections
+- Computational complexity of self-attention
 
 ---
 
@@ -111,3 +129,4 @@ Coming next:
 **Learn → Understand → Explain → Revise → Interview**
 
 </div>
+
