@@ -12,8 +12,8 @@
 
 ### From Neural Network Fundamentals → Transformers → LLM Systems → RAG → Agents
 
-![Completed](https://img.shields.io/badge/Completed-Q1--Q50-22C55E?style=flat-square)
-![Current](https://img.shields.io/badge/Next-Transformer%20FFN%20Q57--Q62-F59E0B?style=flat-square)
+![Completed](https://img.shields.io/badge/Completed-56%20Interview%20Questions-22C55E?style=flat-square)
+![Current](https://img.shields.io/badge/Next-Positional%20Information%20Q63--Q68-F59E0B?style=flat-square)
 
 </div>
 
@@ -108,6 +108,22 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 ---
 
+## 🟪 Transformer FFN / MLP & Modern LLM Activations — Q57-Q62
+
+✅ Role of the Transformer FFN  
+✅ Attention vs FFN  
+✅ Hidden-dimension expansion  
+✅ Nonlinearity inside the FFN  
+✅ GELU  
+✅ SiLU  
+✅ SwiGLU  
+✅ Gated FFN architecture  
+✅ SwiGLU parameter trade-offs
+
+👉 [Read Q57-Q62](questions/07-transformer-ffn-gelu-swiglu.md)
+
+---
+
 # 🗺️ Complete Interview Roadmap
 
 👉 **[Open Complete AI + ML Interview Roadmap](INTERVIEW_ROADMAP.md)**
@@ -136,18 +152,16 @@ The goal is to understand concepts deeply enough to explain the intuition, mathe
 
 # ⏭️ Next Section
 
-## 🧩 Q57-Q62 — Transformer MLP / FFN & Modern LLM Activations
+## 📍 Q63-Q68 — Positional Information in Transformers
 
 Coming next:
 
-- Role of the Feed-Forward Network inside a Transformer
-- Why FFNs expand the hidden dimension
-- Why an activation function is required inside the FFN
-- GELU
-- SwiGLU
-- Why SwiGLU uses more parameters and how hidden dimension is adjusted
-
-> Note: the interview question numbering moves directly from Q50 to Q57.
+- Why Transformers need positional information
+- Absolute positional embeddings
+- Sinusoidal positional encodings
+- Main idea behind RoPE
+- Why RoPE provides relative position information
+- Why RoPE is useful in modern LLMs
 ---
 
 <div align="center">
@@ -157,6 +171,7 @@ Coming next:
 **Learn → Understand → Explain → Revise → Interview**
 
 </div>
+
 
 
 
